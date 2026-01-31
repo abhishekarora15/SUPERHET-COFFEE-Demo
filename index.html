@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SUPERHET COFFEE — Coffee With Character.</title>
+  <meta name="description" content="SUPERHET COFFEE — Independent NYC coffee on Manhattan Ave. Dine-in & takeaway. Open daily at 9:00 AM. 4.8★ local favorite." />
+  <meta name="theme-color" content="#0b0b0b" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#">SUPERHET <span class="dot">COFFEE</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+      <ul id="primary-navigation" class="nav-list">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a class="instagram-link" href="https://instagram.com/superhetcoffee" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Superhet Coffee hero">
+      <div class="hero-media" role="img" aria-label="Cinematic coffee imagery - espresso shot">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80" alt="Barista pouring espresso" />
+        <div class="grain"></div>
+      </div>
+      <div class="hero-content container">
+        <h1 class="headline">Coffee With Character.</h1>
+        <p class="subhead">Independent coffee on Manhattan Ave.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#menu">View Menu</a>
+          <a class="btn btn-ghost" href="#visit">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu section container" aria-labelledby="menu-heading">
+      <header class="section-head">
+        <h2 id="menu-heading">Menu</h2>
+        <p class="sm">Minimal, clean, delicious — prices $1–$10</p>
+      </header>
+
+      <div class="menu-grid">
+        <div class="menu-category" data-category="espresso">
+          <h3>Espresso & Coffee</h3>
+          <ul class="items">
+            <li class="item"><strong>Espresso</strong><span>$2</span></li>
+            <li class="item"><strong>Americano</strong><span>$3</span></li>
+            <li class="item best"><strong>Flat White <span class="badge">Best</span></strong><span>$4</span></li>
+            <li class="item"><strong>Latte</strong><span>$4</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-category" data-category="iced">
+          <h3>Iced Drinks</h3>
+          <ul class="items">
+            <li class="item best"><strong>Iced Americano <span class="badge">Best</span></strong><span>$3</span></li>
+            <li class="item"><strong>Iced Latte</strong><span>$4</span></li>
+            <li class="item"><strong>Cold Brew</strong><span>$5</span></li>
+          </ul>
+        </div>
+
+        <div class="menu-category" data-category="bites">
+          <h3>Light Bites</h3>
+          <ul class="items">
+            <li class="item"><strong>Butter Croissant</strong><span>$3</span></li>
+            <li class="item"><strong>Banana Bread</strong><span>$3</span></li>
+            <li class="item"><strong>Seasonal Pastry</strong><span>$4</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="menu-note">Affordably delicious — everything between <strong>$1–$10</strong>.</p>
+    </section>
+
+    <!-- REVIEWS -->
+    <section id="reviews" class="reviews section container" aria-labelledby="reviews-heading">
+      <header class="section-head">
+        <h2 id="reviews-heading">Trusted Local Favorite</h2>
+        <div class="rating">
+          <svg class="star" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+          <strong>4.8</strong><span class="muted">★ (70+ reviews)</span>
+        </div>
+      </header>
+
+      <div class="reviews-grid">
+        <blockquote class="review">"Best flat white in the neighborhood." <cite>— Local</cite></blockquote>
+        <blockquote class="review">"Friendly baristas and killer vibes." <cite>— Creative professional</cite></blockquote>
+        <blockquote class="review">"Great prices, great coffee." <cite>— Regular</cite></blockquote>
+      </div>
+    </section>
+
+    <!-- VISIT / CONTACT -->
+    <section id="visit" class="visit section container" aria-labelledby="visit-heading">
+      <header class="section-head">
+        <h2 id="visit-heading">Visit Us</h2>
+        <p class="sm">390 Manhattan Ave, New York, NY 10026</p>
+      </header>
+
+      <div class="visit-grid">
+        <div class="map" aria-hidden="false">
+          <iframe title="Map to SUPERHET COFFEE" src="https://www.google.com/maps?q=390+Manhattan+Ave+New+York+NY+10026&output=embed" loading="lazy"></iframe>
+        </div>
+
+        <div class="visit-info">
+          <p><strong>Hours:</strong> Opens daily at <strong>9:00 AM</strong></p>
+          <p><strong>Services:</strong> Dine-in &amp; Takeaway (no delivery)</p>
+          <p class="muted">Rating: <strong>4.8★</strong> — Local favorite</p>
+
+          <div class="visit-ctas">
+            <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=390+Manhattan+Ave+New+York+NY+10026" target="_blank" rel="noopener">Get Directions</a>
+            <a class="btn btn-ghost" href="https://instagram.com/superhetcoffee" target="_blank" rel="noopener">Follow on Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY (Instagram-style images) -->
+    <section class="gallery section container" aria-label="Instagram gallery">
+      <div class="gallery-grid">
+        <img alt="Espresso on wooden table" src="https://images.unsplash.com/photo-1445077100181-a33efa31a6d6?auto=format&fit=crop&w=800&q=60">
+        <img alt="Coffee cup close-up" src="https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&w=800&q=60">
+        <img alt="Cafe interior" src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=800&q=60">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand-block">
+        <p class="brand big">SUPERHET <span class="dot">COFFEE</span></p>
+        <p class="muted">Independent coffee. Manhattan Ave.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+        <a href="https://instagram.com/superhetcoffee" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <div class="footer-meta">
+        <p><strong>Open daily</strong> — 9:00 AM</p>
+        <p class="muted">© SUPERHET COFFEE</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
